@@ -1,4 +1,4 @@
-package com.bugs.mbugs;
+package com.ssr.vue;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Bean;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class MbugsApplication {
+public class VueApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MbugsApplication.class, args);
+		SpringApplication.run(VueApplication.class, args);
 	}
 
 	@Bean
